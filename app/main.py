@@ -1,9 +1,6 @@
 from time import sleep
-from unittest.mock import sentinel
 from autoit import properties
-from msilib.schema import Property
 import autoit
-from autoit import properties
 
 data = []
 with open('app/winlist.txt', 'r', encoding='UTF-8') as file:
